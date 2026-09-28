@@ -103,9 +103,18 @@ The calculation uses:
 
 `Net value per 1,000 contacts = 1,000 × (churn rate × save rate × $66 − $6.20)`
 
-Independent check of the 15% scenario:
+**Independent check of the 15% scenario:**
 
-`1,000 × (0.693950 × 0.15 × $66 − $6.20) = $670.11`
+**Independent check of the 15% scenario:**
+
+- The selected list contains 281 customers, including 195 observed churners.
+- At a 15% save rate: `195 × 0.15 = 29.25` assumed saves.
+- Retention value: `29.25 × $66 = $1,930.50`.
+- Contact cost: `281 × $6.20 = $1,742.20`.
+- Net for 281 contacts: `$1,930.50 − $1,742.20 = $188.30`.
+- Scaled to 1,000 contacts: `($188.30 / 281) × 1,000 = $670.11`.
+
+This count-based calculation matches the supplied scenario result.
 
 At a 10% assumed save rate, the retained value per contact (0.693950 × 0.10 × $66 ≈ $4.58) is smaller than the $6.20 cost per contact, so the campaign loses money—net value comes out negative at −$1,619.93 per 1,000 contacts. At 15%, the retained value per contact (0.693950 × 0.15 × $66 ≈ $6.87) exceeds the $6.20 cost, flipping the campaign to a net positive $670.11 per 1,000 contacts. The break-even point, 13.54%, is the save rate at which retained value exactly offsets the contact cost.
 
