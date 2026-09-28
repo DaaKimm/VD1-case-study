@@ -105,8 +105,6 @@ The calculation uses:
 
 **Independent check of the 15% scenario:**
 
-**Independent check of the 15% scenario:**
-
 - The selected list contains 281 customers, including 195 observed churners.
 - At a 15% save rate: `195 × 0.15 = 29.25` assumed saves.
 - Retention value: `29.25 × $66 = $1,930.50`.
